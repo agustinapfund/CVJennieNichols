@@ -1,0 +1,125 @@
+* {
+background-color: #cbc5ff;
+}
+/**foto del cv*/
+img {       
+height: 150%;
+border-color: black;
+border: 1px solid;
+padding: 5px;
+margin: auto;
+display: block;
+border-radius: 100px;
+content: 5px;
+}
+img:hover{
+    transform: scale(1.50);
+}
+/**nombre*/
+h1{             
+font-family:'Roboto', sans-serif;
+color: rgb(12, 0, 53);
+text-align: center;
+margin-bottom: 0%;
+margin-top: 0%;}
+/**profesion*/
+h2 {            
+    font-family:'Roboto', sans-serif;
+color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 0%;
+margin-bottom: 1%;
+text-transform: uppercase;
+font-size: 20px;
+background: rgb(12, 0, 53);
+padding: 5px;
+}
+/**cuadro nombre y profesion*/
+.encabezado {       
+border: rgb(12, 0, 53) 2px inset;
+width: fit-content;
+height: 60%;
+padding: 0%;
+margin: auto;
+flex-direction: column;
+}
+.encabezado h2:hover {
+    background: #6352ff;
+}
+/**subtitulos*/
+h3 {            
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+/**informacion*/
+p{          
+font-family: 'Roboto', sans-serif;
+text-align: center;}
+article { width: 50%;
+    height: 50%;
+    padding: 30px;
+margin: auto;
+margin-bottom: 10%;
+margin-top: 0%;
+}
+/**linea que separa*/
+hr {        
+background-color:rgb(12, 0, 53) ;
+margin-left: 25%;
+margin-right: 25%;
+width: 50%;
+height: 2px;
+text-align: center;}
+ /**Menu*/
+ul {       
+list-style-type:none;
+text-align:center;}
+.Menu > li {
+float:none;
+justify-content: center;}
+.Menu li a {
+background-color:rgb(17, 1, 96);
+color:#fff;
+text-decoration: none;
+padding: 12px;
+font-family: 'Roboto', sans-serif;
+border-radius: 50px;
+transition: all 500ms ease;
+text-align: center;
+display: block;
+margin-bottom: 1%;
+align-content: center;
+margin-left: 30%;
+margin-right: 30%;
+}
+.Menu li a:hover {
+background-color:#6352ff;
+transform: scale(1.15);
+}
+/**puntero del mouse*/
+.cursor {                   
+width: 10px;
+height: 10px;
+border: 2px  solid rgba(255, 255, 255, 0.5);
+padding: 10px;
+border-radius: 50%;
+position: absolute;
+background-color: transparent;
+pointer-events: none;}
+/**boton de ir al inicio*/
+#boton {text-align: center;}    
+#inicio { text-decoration: none;
+color: rgb(12, 0, 53);
+border: 1px solid  rgb(12, 0, 53);
+border-radius: 10%;}
+/**pantalla movil*/
+@media screen and (max-width: 500px) {      
+.Menu li a {background-color:coral;}
+* { background:antiquewhite}
+h1{color: brown;}
+h2 {background: brown;}
+.encabezado h2:hover {background: rgb(183, 86, 86);}
+.encabezado{border: brown inset;}
+h3 {color: black;}
+p {color: black;}
+hr {color: black;}}
